@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="frontend developer, web development, portfolio, responsive design, Bootstrap, graphic design, Canva, video editing, data entry, web design, HTML, CSS, JavaScript, beginner developer, JQuery, landing page">
+    <meta name="description" content="Welcome to my portfolio! I am a beginner frontend developer with over 6 months of experience in web development. Explore my completed projects and skills in Bootstrap, responsive design, JQuery, graphic design using Canva, video editing, and more.">
+    <meta name="author" content="Huzaifa Zahid">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <title>Personal portfolio website</title>
+</head>
+<body class="bod">
+    <div class="header">
+        <div class="man">
+            <img src="./images/pic.png" alt="Huzaifa logo">
+            <h3>Huzaifa Zahid</h3>
+            <p>front-end developer</p>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#home" class="animate__animated animate__fadeInUp">home</a></li>
+                <li><a href="#about" class="animate__animated animate__fadeInUp">about</a></li>
+                <li><a href="#services" class="animate__animated animate__fadeInUp">services</a></li>
+                <li><a href="#portfolio" class="animate__animated animate__fadeInUp">portfolio</a></li>
+                <li><a href="#contact" class="animate__animated animate__fadeInUp">contact</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" id="menu-btn" onclick="showMenu()"></i>
+
+    </div>
+    <i class="fas fa-moon" id="theme-toggler"></i>
+    
+    <div class="home" id="home">
+        <div class="content">
+            <h3 class="anim2">Huzaifa Zahid</h3>
+            <p class="anim3">I am a front-end developer</p>
+            <a href="#" class="btn anim4" >Download CV</a>
+        </div>
+        <div class="share anim">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+    </div>
+
+
+    <div class="about" id="about">
+        <h1 class="heading"><span>about</span> me</h1>
+        <div class="row">
+            <div class="box-container">
+                <div class="box">
+                    <h3>5+ </h3>
+                    <p>months of experience</p>
+                </div>
+                <div class="box">
+                      <h3>100+</h3>
+                    <p>working hours</p>
+                </div>
+                <div class="box">
+                  <h3>10+</h3>
+                    <p>complete Projects</p>
+                </div>
+                <div class="box">
+                    <h3>5+</h3>
+                    <p>Skills Acquired</p>
+                </div>            
+            </div>
+            <div class="content">
+                <h3>My name is <span>Huzaifa Zahid</span></h3>
+                <p>I can create an animated and interactive website according to your needs and requirements with almost half year of experience.</p>
+                <a href="#" class="btn">contact me</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="progress">
+                <h3>HTML<span>95%</span></h3>
+                <div class="bar bar1"><span></span></div>
+                <h3>CSS<span>83%</span></h3>
+                <div class="bar bar2"><span></span></div>
+                <h3>javascript<span>78%</span></h3>
+                <div class="bar bar3"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>Data Entery<span>70%</span></h3>
+                <div class="bar bar4"><span></span></div>
+                <h3>video editing<span>65%</span></h3>
+                <div class="bar bar5"><span></span></div>
+                <h3>graphic design<span>60%</span></h3>
+                <div class="bar bar6"><span></span></div>
+            </div>
+        </div>
+    </div>
+
+   <div class="services" id="services">
+    <h1 class="heading">My <span>services</span></h3>
+    <div class="box-container">
+        <div class="box">
+            <div class="fas fa-code"></div>
+            <h3>web design</h3>
+            <p> Competent in designing user-friendly and aesthetically pleasing websites</p>
+        </div>
+        <div class="box">
+            <div class="fa-solid fa-palette"></div>
+            <h3>Graphic design</h3>
+            <p>Capable of creating visually appealing graphics and layouts, with proficiency in Canva.</p>
+        </div>
+        <div class="box">
+            <div class="fas fa-mobile"></div>
+            <h3>responsive design</h3>
+            <p>Adept at designing websites that work seamlessly across various devices.</p>
+        </div>
+        <div class="box">
+            <div class="fas fa-video"></div>
+            <h3>Video editing</h3>
+            <p>Skilled in creating and editing videos with various software tools.</p>
+        </div>
+        <div class="box">
+            <div class="fas fa-database"></div>
+            <h3>Data Entery</h3>
+            <p>Experienced in accurate and efficient data entry and management.</p>
+        </div>
+        <div class="box">
+            <div class="fa-brands fa-bootstrap"></div>
+            <h3>bootstrap</h3>
+            <p>Proficient in building responsive,user-friendly & mobile-first web pages using Bootstrap.</p>
+        </div>
+    </div>
+   </div>
+   <div class="portfolio" id="portfolio">
+    <h1 class="heading">My <span>portfolio</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="./images/1.jpg" alt="">
+            <div class="content">
+                <h3><a style="color:red" href="https://huzflix.netlify.app" target="_blank">Huzflix Clone</a></h3>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/2.jpg" alt="" >
+            <div class="content">
+                <h3><a style="color:red" href="https://hstudysync.netlify.app" target="_blank" >Education Website</a></h3>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/3.jpg" alt="" >
+            <div class="content">
+                <h3><a style="color:red" href="https://gym005.netlify.app" target="_blank">Gym Template</a></h3>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/4.jpg" alt="" >
+            <div class="content">
+                <h3><a style="color:red" href="https://product006.netlify.app" target="_blank">Product landing page</a></h3>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/5.jpg" alt="" >
+            <div class="content">
+                <h3><a style="color:red" href="https://flexzone005.netlify.app" target="_blank">Gym landing Page</a></h3>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/6.jpg" alt="" >
+            <div class="content">
+                <h3><a style="color:red" href="https://scooter006.netlify.app" target="_blank">product landing page</a></h3>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <div class="contact" id="contact">
+    <h1 class="heading"><span>contact </span>me</h1>
+    <form action="">
+        <input type="text" placeholder="your name" class="box">
+        <input type="email" placeholder="your email" class="box">
+        <input type="text" placeholder="subject" class="box">
+        <textarea name="" class="box" placeholder="your message" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="btn">
+    </form>
+   </div>
+
+   <div class="credits">created by <span>mr. Huzaifa Zahid</span>| all right reserved</div>
+
+</body>
+
+
+
+<script type="text/javascript">
+    let menu=document.querySelector('#menu-btn');
+    let header=document.querySelector('.header');
+    function showMenu(){
+    //document.getElementsByClassName('header')[0].style.left="0";
+    menu.classList.toggle('fa-times')
+    header.classList.toggle('active')
+}
+
+let theme = document.querySelector('#theme-toggler');
+  theme.onclick = () => {
+    theme.classList.toggle('fa-moon'); // Toggle moon class
+    theme.classList.toggle('fa-sun'); // Toggle sun class
+    
+    if(theme.classList.contains('fa-sun')){
+        document.body.classList.add('active');
+      }
+      else{
+        document.body.classList.remove('active');
+      }  
+}
+
+/*document.addEventListener('scroll', function (e) {
+    const top = window.pageYOffset + window.innerHeight;
+    const isVisible = top > document.querySelector('.box-container > box').offsetTop;
+    if (isVisible) {
+      document.getElementById('box-container').classList.add('anim');
+    }
+  });
+  */
+/*let theme=document.querySelector('#theme-toggler');
+theme.onclick = () =>{
+    theme.classList.toggle('fa-sun');
+}*/
+
+
+/*document.querySelector('.fa-times').addEventListener("click",hideMenu)
+function hideMenu(){
+    document.getElementsByClassName('header')[0].style.left="-110%";
+}*/
+</script>
+</html>
